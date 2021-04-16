@@ -6,13 +6,13 @@ QRCodeGenerator is a GUI based on https://www.nayuki.io/page/qr-code-generator-l
 
 Using the makefile:
 ```
-cd linux
+cd cpp
 qmake src/QR-Code.pro 
 make
 ./QRCode
 ```
 
-### Deployment on Windows (preliminary)
+## Pre- compiled deployment on Windows (preliminary)
 
 A cross-compiled version of QRCodeGenerator with needed dll files using https://github.com/mdimura/docker-mingw-arch.
 Copy the windows folder to your preferred direcotry (e.g. C://Programms) and exectute the QRCode.exe file. You might want to create shortcut on the Desktop.
