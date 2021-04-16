@@ -1,6 +1,6 @@
 # QRCodeGenerator
 
-QRCodeGenerator is a GUI based on https://www.nayuki.io/page/qr-code-generator-library. it allows you to convert any text into a QR code. The QR codes are saved as .svg.
+QRCodeGenerator is a simple GUI based on https://www.nayuki.io/page/qr-code-generator-library. It is created with QTCreator. It allows you to convert any text into a QR code. The QR codes are saved as .svg.
 
 ## Deployment with QMake
 
@@ -16,6 +16,12 @@ make
 
 A cross-compiled version of QRCodeGenerator with needed dll files using https://github.com/mdimura/docker-mingw-arch.
 Copy the windows folder to your preferred direcotry (e.g. C://Programms) and exectute the QRCode.exe file. You might want to create shortcut on the Desktop.
+
+## Features
+
+- GUI
+- Languages: English, German
+- output format: svg
 
 ## Disclaimer
 
